@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.sidebar_menu {
+    background-color: #9a9a9a;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 330px;
+}
+
+.sidebar_content {margin-left: 350px;width: 100%;}
+
+.sidebar-title {
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.sidebar-item {
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.sidebar-item:hover {
+    background-color: #c6c6c6;
+}
+
+.sidebar-item.active {
+    background-color: #c6c6c6;
+
+}
+
+.sidebar_content {
+    margin: 0 10px;
+    font-family: arial, sans-serif;
+}
+
+.managament-title {
+    font-size: 36px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+
+.list-info,
+.list-user {
+    margin: 10px 0;
+}
+
+.list-info {
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-left: 5px solid #c6c6c6;
+    margin-right: 50px;
+}
+
+.content{
+    display: none;
+}
+
+.content.active{
+    display: block;
+}
+
+.btn {
+    width: 100%;
+    background-color: #dddddd;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+.form-control-file-img {
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 30px 0;
+}
+.form-control-file-img::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.form-control-file-img::before {
+    content: "Chọn ảnh";
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 5px;
+    color: #fff;
+    border: 1px solid #999;
+    border-radius: 3px;
+    background-color: #7c7272;
+    cursor: pointer;
+}
+
+.form-control-file-img-skin::before:hover {
+    background-color: #db3131;
+}
+
+.form-group .btn {
+    width: 200px;
+}
+
+img {
+    width: 150px;
+}

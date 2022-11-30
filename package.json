@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "alpinejs": "^3.4.2",
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.27",
+    "datatables.net": "^1.12.1",
+    "datatables.net-bs4": "^1.12.1",
+    "laravel-vite-plugin": "^0.6.0",
+    "lodash": "^4.17.19",
+    "postcss": "^8.4.6",
+    "prettier": "2.7.1",
+    "tailwindcss": "^3.1.0",
+    "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "@prettier/plugin-php": "0.14.3",
+    "execution-time": "github:omgimalexis/execution-time",
+    "jquery": "^3.6.1",
+    "path": "^0.12.7",
+    "prettier": "2.0.5"
+  },
+  "name": "web-nckh",
+  "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trung9201/web-nckh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trung9201/web-nckh/issues"
+  },
+  "homepage": "https://github.com/Trung9201/web-nckh#readme"
+}
